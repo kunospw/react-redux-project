@@ -1,3 +1,4 @@
+import './App.css'
 import { useDispatch, useSelector } from 'react-redux';
 import { increment, decrement } from './store';
 
