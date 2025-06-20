@@ -7,8 +7,8 @@ function App() {
   const dispatch = useDispatch();
 
   return (
-    <>
-      <h1>Count: {count}</h1>
+    <>    
+      <h1>RAWRRR Count: {count}</h1>
       <button onClick={() => dispatch(increment())}>+</button>
       <button onClick={() => dispatch(decrement())}>-</button>
     </>
